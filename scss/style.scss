@@ -1,0 +1,144 @@
+body {
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+body,
+form,
+div,
+p,
+a,
+img,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+table,
+table tr,
+table td {
+    border: none;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+input,
+textarea,
+select {
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: underline;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2 {
+    font-size: 20px;
+    padding: 0 0 10px 0;
+    color: #545454;
+}
+
+h1 {
+    font-size: 86px;
+    line-height: 90px;
+    color: #000000;
+    padding: 0 30px 90px 30px;
+    text-align: center;
+    font-weight: normal;
+    text-transform: uppercase;
+
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #303030;
+    line-height: 19px;
+    text-align: center;
+    padding: 60px 30px 20px 30px;
+    letter-spacing: 2px;
+
+}
+
+.owl-carousel {
+    position: relative;
+    box-sizing: border-box;
+    padding: 0 30px 0 110px;
+}
+
+.owl-nav {
+    margin: 0;
+    padding: 0;
+}
+
+
+.owl-prev {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    outline: none;
+    border: none;
+
+    span {
+        color: transparent;
+        font-size: 0px;
+        height: 96px;
+        width: 96px;
+        background-image: url(../images/arrows.png);
+        display: block;
+    }
+}
+
+.owl-next {
+    position: absolute;
+    right: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    outline: none;
+    border: none;
+
+    span {
+        color: transparent;
+        font-size: 0px;
+        height: 96px;
+        width: 96px;
+        background-image: url(../images/arrows.png);
+        background-position: 96px 0;
+        display: block;
+    }
+
+}
+
+.foot {
+    padding-bottom: 130px;
+}
