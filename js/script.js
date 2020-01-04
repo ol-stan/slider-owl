@@ -8,11 +8,14 @@ $(document).ready(function () {
         dots: false,
         nav: true,
         responsive: {
-            678: {
-                mergeFit: true
-            },
             1000: {
                 mergeFit: false
+            },
+            678: {
+                nav: false,
+                mergeFit: true,
+                margin: 24,
+                autoWidth: false,
             }
         }
     });

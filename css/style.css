@@ -139,4 +139,18 @@ h2 {
 .foot {
   padding-bottom: 130px;
 }
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 48px;
+    line-height: 50px;
+    padding: 0 10px 90px 10px;
+  }
+  .owl-carousel {
+    padding: 0 10px 0 10px;
+  }
+  .owl-nav {
+    display: none;
+  }
+}
 /*# sourceMappingURL=style.css.map */
